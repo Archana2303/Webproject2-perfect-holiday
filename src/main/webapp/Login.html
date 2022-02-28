@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	header{
+    color: midnightblue;
+    font-style: italic;
+    text-align :center ;
+    font-size: xx-large;
+}
+section img {
+    height: 30px;
+    width: 100%;
+
+}
+#navlist{
+            background-color: #30caca;
+            position: absolute;
+            width: 100%;
+        }
+           
+        #navlist a {
+            float:left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .navlist-right{
+            float:right;
+        }
+   
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #b4ebeb;
+            color: black;
+        }
+
+</style>
+</head>
+<body>
+<header>
+        <strong>Perfect Holiday</strong>
+</header>
+      <div id="navlist">
+        <a href="Home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Packages.html">Tour Packages</a>
+         <a href="Booknow.html">Book Now</a>
+        <div class="navlist-right">
+        <a href="Login.html">Login</a>
+        <a href="signup.html">SignUp</a>
+        <a href="Contact.html">Contact Us</a>
+    	</div>
+    </div>
+     <br><br>
+<form action="./Customerinfo" method="post">
+<table>
+           <tr>
+                    <td> <h5> User name : </h5> </td>
+                    <td> <input type ="text"  name="uname" > </td>
+           </tr>
+           
+            <tr>
+                    <td> <h5> Password : </h5> </td>
+                    <td> <input type ="text"  name="password" > </td>
+           </tr>
+            <tr>
+                    <td>&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp<input type ="Submit"  value="Login" > </td>
+           </tr>
+
+</table>
+</form>
+</body>
+</html>

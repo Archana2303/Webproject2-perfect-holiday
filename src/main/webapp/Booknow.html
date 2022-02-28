@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	header{
+    color: midnightblue;
+    font-style: italic;
+    text-align :center ;
+    font-size: xx-large;
+}
+section img {
+    height: 30px;
+    width: 100%;
+
+}
+#navlist{
+            background-color: #30caca;
+            position: absolute;
+            width: 100%;
+        }
+           
+        #navlist a {
+            float:left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .navlist-right{
+            float:right;
+        }
+   
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #b4ebeb;
+            color: black;
+        }
+		.form{
+    height: 100px;
+    width: 860px ;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 105px;
+    padding-right: 55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: solid 2px rgb(111, 111, 194);
+    box-shadow: 5px 5px 5px;
+
+		}
+</style>
+</head>
+<body>
+<header>
+        <strong>Perfect Holiday</strong>
+</header>
+      <div id="navlist">
+        <a href="Home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Packages.html">Tour Packages</a>
+          <a href="Booknow.html">Book Now</a>
+        <div class="navlist-right">
+        <a href="Login.html">Login</a>
+        <a href="signup.html">SignUp</a>
+        <a href="Contact.html">Contact Us</a>
+    	</div>
+    </div>
+     <br><br>
+     <div class="form">
+<form action="./Booknow" method="post">
+					<label>Destination :</label>
+					<input type="text" id="destination" name="destination">
+					<br><br>
+					<label>Check-in:</label>
+                    <input type="date" id="check-in" name="check-in">
+                    <label>Check-out:</label>
+                    <input type="date" id="check-out" name="check-out">            
+                    <label>Guests</label>
+                    <input type="number" id="guests" name="guests">                  
+                    <button class="button" id="Availability">Check Availability</button>
+</form>
+</div>
+</body>
+</html>

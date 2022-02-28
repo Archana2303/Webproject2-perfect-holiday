@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Perfect Holiday</title>
+<style>
+*{
+margin: 0;
+padding : 0;
+font-family : Century Gothic;
+}
+header{
+background-image : url("images/beach2.jpg");
+height : 100vh;
+background-size : cover;
+background-position : center;
+}
+#navlist{
+            background-color: #30caca;
+            position: absolute;
+            width: 100%;
+        }
+           
+        #navlist a {
+            float:left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .navlist-right{
+            float:right;
+        }
+   
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #b4ebeb;
+            color: black;
+        }
+.main{
+max-width : 1200px;
+margin: auto;
+}
+.title{
+position: absolute;
+top: 50%;
+left : 50%;
+transform : translate(-50%,-50%);
+}
+.title h1{
+color : black;
+font-size : 60px;
+}
+.button{
+position: absolute;
+top: 60%;
+left : 50%;
+transform : translate(-50%,-50%);
+}
+.btn{
+border : 1px solid #fff;
+padding : 10px 30px;
+color : black;
+}
+.btn:hover{
+background-color :  #fff;
+color: black;
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<div id="navlist">
+        <a href="Home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Packages.html">Tour Packages</a>
+        <a href="Booknow.html">Book Now</a>
+        <div class="navlist-right">
+        <a href="Login.html">Login</a>
+        <a href="signup.html">SignUp</a>
+        <a href="Contact.html">Contact Us</a>
+    	</div>
+    	</div>
+		<div class="title">
+			<h1>PERFECT HOLIDAY</h1>
+		</div>
+		<div class="button">
+			<a href="Booknow.html" class="btn">Book now</a>
+		</div>
+	</header>
+</body>
+</html>

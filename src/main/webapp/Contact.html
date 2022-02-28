@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	header{
+    color: midnightblue;
+    font-style: italic;
+    text-align :center ;
+    font-size: xx-large;
+}
+section img {
+    height: 30px;
+    width: 100%;
+
+}
+#navlist{
+            background-color: #30caca;
+            position: absolute;
+            width: 100%;
+        }
+           
+        #navlist a {
+            float:left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .navlist-right{
+            float:right;
+        }
+   
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #b4ebeb;
+            color: black;
+        }	
+</style>
+</head>
+<body>
+<header>
+        <strong>Perfect Holiday</strong>
+</header>
+     <div id="navlist">
+        <a href="Home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Packages.html">Tour Packages</a>
+         <a href="Booknow.html">Book Now</a>
+        <div class="navlist-right">
+        <a href="Login.html">Login</a>
+        <a href="signup.html">SignUp</a>
+        <a href="Contact.html">Contact Us</a>
+    	</div>
+    </div>
+    <div class="container">
+    <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <h4>Thank you for visiting us! If you have any queries or feedback, please contact us by completing below form.</h4>
+    </div>
+    <div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+     <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" >
+        <br><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" >
+        <br><br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" >
+        <br><br><br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <br><br><br>
+        <label for="msg">Message</label>
+        <input type="text" id="msg" name="msg" >
+        <br><br><br>
+        <input type ="Submit"  value="Submit" >
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
